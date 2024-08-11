@@ -8,7 +8,7 @@ const projects = [
         contributions: "Explanation of your particular contributions.",
         image: "../../images/project1/project_icon.png",
         link: "/project/1",
-        github: 'https://github.com/',
+        github: 'https://github.com/JessiStrattonWeber/CS3750-Portfolio/tree/main/project1',
         gallery: [
             "../../images/project1/1.png",
             "../../images/project1/2.png",
@@ -26,7 +26,7 @@ const projects = [
         contributions: "Explanation of your particular contributions.",
         image: "../../images/project2/project_icon.png",
         link: "/project/2",
-        github: 'https://github.com/',
+        github: 'https://github.com/JessiStrattonWeber/CS3750-Portfolio/tree/main/project2',
         gallery: [
             "../../images/project2/project_icon.png",
             "../../images/project2/project_icon.png",
@@ -42,7 +42,7 @@ const projects = [
         contributions: "Explanation of your particular contributions.",
         image: "../../images/project3/project_icon.png",
         link: "/project/3",
-        github: 'https://github.com/',
+        github: 'https://github.com/JessiStrattonWeber/CS3750-Portfolio/tree/main/project3',
         gallery: [
             "../../images/project3/project_icon.png",
             "../../images/project3/project_icon.png",
@@ -58,7 +58,7 @@ const projects = [
         contributions: "Explanation of your particular contributions.",
         image: "../../images/project4/project_icon.png",
         link: "/project/4",
-        github: 'https://github.com/',
+        github: 'https://github.com/JessiStrattonWeber/CS3750-Portfolio/tree/main/project4',
         gallery: [
             "../../images/project4/project_icon.png",
             "../../images/project4/project_icon.png",
@@ -74,7 +74,7 @@ const projects = [
         contributions: "Explanation of your particular contributions.",
         image: "../../images/project5/project_icon.png",
         link: "/project/5",
-        github: 'https://github.com/',
+        github: 'https://github.com/JessiStrattonWeber/CS3750-Portfolio/tree/main/project5',
         gallery: [
             "../../images/project5/project_icon.png",
             "../../images/project5/project_icon.png",
@@ -90,7 +90,7 @@ const projects = [
         contributions: "Explanation of your particular contributions.",
         image: "../../images/project6/project_icon.png",
         link: "/project/6",
-        github: 'https://github.com/',
+        github: 'https://github.com/JessiStrattonWeber/CS3750-Portfolio/tree/main/project6',
         gallery: [
             "../../images/project6/project_icon.png",
             "../../images/project6/project_icon.png",
@@ -106,7 +106,7 @@ const projects = [
         contributions: "Explanation of your particular contributions.",
         image: "../../images/project7/project_icon.png",
         link: "/project/7",
-        github: 'https://github.com/',
+        github: 'https://github.com/JessiStrattonWeber/CS3750-Portfolio/tree/main/project7',
         gallery: [
             "../../images/project7/project_icon.png",
             "../../images/project7/project_icon.png",
@@ -122,7 +122,7 @@ const projects = [
         contributions: "Explanation of your particular contributions.",
         image: "../../images/project8/project_icon.png",
         link: "/project/8",
-        github: 'https://github.com/',
+        github: 'https://github.com/JessiStrattonWeber/CS3750-Portfolio/tree/main/project8',
         gallery: [
             "../../images/project8/project_icon.png",
             "../../images/project8/project_icon.png",
@@ -138,7 +138,7 @@ const projects = [
         contributions: "Explanation of your particular contributions.",
         image: "../../images/project9/project_icon.png",
         link: "/project/9",
-        github: 'https://github.com/',
+        github: 'https://github.com/JessiStrattonWeber/CS3750-Portfolio/tree/main/project9',
         gallery: [
             "../../images/project9/project_icon.png",
             "../../images/project9/project_icon.png",

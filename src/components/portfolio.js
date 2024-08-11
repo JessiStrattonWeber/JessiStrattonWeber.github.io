@@ -6,7 +6,7 @@ function Portfolio() {
     return (
         <div className="container">
             <h2>My Projects</h2>
-            <a className="btn btn-primary" href='https://github.com/'>Clone Code</a>
+            <a className="btn btn-primary" href='https://github.com/JessiStrattonWeber/CS3750-Portfolio'>Clone Code</a>
             <div className="row">
                 {projects.map((project, index) => (
                     <div className="col-md-4 d-flex" key={index}>
