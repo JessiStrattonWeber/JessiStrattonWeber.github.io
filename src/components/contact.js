@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 function Contact() {
   return (
@@ -17,7 +18,7 @@ function Contact() {
           <label className="form-label">Message</label>
           <textarea className="form-control" rows="6"></textarea>
         </div>
-        <a href="/" className="btn btn-primary">Send</a>
+        <Link to="/" className="btn btn-primary">Send</Link>
       </form>
     </div>
   );

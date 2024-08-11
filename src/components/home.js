@@ -1,4 +1,6 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
+
 
 function Home() {
   return (
@@ -8,8 +10,8 @@ function Home() {
         <h4>Hello World!</h4>
         <hr/>
         <p>See my projects</p>
-        <a className="btn btn-primary" href="/portfolio">View Portfolio</a>
-        <a className="btn btn-primary" href="/">Clone Code</a>
+        <Link className="btn btn-primary" to="/portfolio">View Portfolio</Link>
+        <a className="btn btn-primary" href='https://github.com/'>Clone Code</a>
       </div>
     </div>
   );

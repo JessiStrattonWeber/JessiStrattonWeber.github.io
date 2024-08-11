@@ -1,5 +1,6 @@
 import React from 'react';
 import { useParams } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import projects from './project-list.js';
 
 function ProjectDetails() {
@@ -7,7 +8,7 @@ function ProjectDetails() {
     const project = projects.find(proj => proj.id === parseInt(id));
     return (
         <div className="container ">
-            <a href="/portfolio" className="btn btn-primary">Go Back</a>
+            <Link to="/portfolio" className="btn btn-primary">Go Back</Link>
             <div className='card '>
                 <h2>{project.title} Overview</h2>
                 <img src={project.image} alt={project.title} className="img-fluid detail-image" />
