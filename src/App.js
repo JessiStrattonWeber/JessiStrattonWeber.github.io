@@ -8,6 +8,7 @@ import Contact from './components/contact.js';
 import ProjectDetails from './components/project-details.js';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 import './App.css';
 
 const App = () => {

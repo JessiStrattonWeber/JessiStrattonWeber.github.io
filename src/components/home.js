@@ -7,11 +7,10 @@ function Home() {
     <div className="container">
       <div className="jumbotron mt-5">
         <h1>My Portfolio</h1>
-        <h4>Hello World!</h4>
+        <h4>Welcome To Jessi Stratton's CS 3750: Software Engineering Portfolio</h4>
         <hr/>
-        <p>See my projects</p>
         <Link className="btn btn-primary" to="/portfolio">View Portfolio</Link>
-        <a className="btn btn-primary" href='https://github.com/'>Clone Code</a>
+        <a className="btn btn-primary" href='https://github.com/JessiStrattonWeber/CS3750-Portfolio'>Clone Code</a>
       </div>
     </div>
   );
