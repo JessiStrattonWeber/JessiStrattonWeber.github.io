@@ -36,9 +36,24 @@ h1 {
                         BUTTONS
 ******************************************************/
 .btn-primary {
-  margin: 20px 0;
+  background-color: rgb(48, 67, 102);
+  margin: 20px 20px 0 0;
+  border: none;
+  font-weight: bold;
+}
+.btn-primary:hover {
+  background-color: rgb(28, 43, 70);
 }
 
+.btn-secondary {
+  background-color: rgb(73, 48, 102);
+  margin: 20px 20px 0 0;
+  border: none;
+  font-weight: bold;
+}
+.btn-secondary:hover {
+  background-color: rgb(57, 28, 70);
+}
 /***************************************************** 
                       HEADER
 ******************************************************/

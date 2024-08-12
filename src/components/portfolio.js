@@ -6,7 +6,7 @@ function Portfolio() {
     return (
         <div className="container">
             <h2>My Projects</h2>
-            <a className="btn btn-primary" href='https://github.com/JessiStrattonWeber/CS3750-Portfolio'>Clone Code</a>
+            <a className="btn btn-primary" href='https://github.com/JessiStrattonWeber/CS3750-Portfolio'>View Code</a>
             <div className="row">
                 {projects.map((project, index) => (
                     <div className="col-md-4 d-flex" key={index}>
@@ -15,7 +15,7 @@ function Portfolio() {
                             <div className="card-body">
                                 <h5 className="card-title">{project.title}</h5>
                                 <p className="card-text">{project.description}</p>
-                                <Link to={`/project/${project.id}`} className="btn btn-primary">View Details</Link>
+                                <Link to={`/project/${project.id}`} className="btn btn-secondary">View Details</Link>
                             </div>
                         </div>
                     </div>
