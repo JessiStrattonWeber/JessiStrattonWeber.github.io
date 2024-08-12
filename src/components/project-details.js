@@ -11,7 +11,12 @@ function ProjectDetails() {
             <Link to="/portfolio" className="btn btn-primary">Go Back</Link>
             <div className='card '>
                 <h2>{project.title} Overview</h2>
-                <img src={project.image} alt={project.title} className="img-fluid detail-image" />
+                <video controls className="img-fluid detail-video">
+                    <source src={project.video} type="video/webm" />
+                    <source src={project.video} type="video/mp4" />
+                    <source src={project.video} type="video/mkv" />
+                    Your browser does not support this video.
+                </video>
                 <p>{project.description}</p>
                 <a href={project.github} className="btn btn-primary">Github Page</a>
             </div>
@@ -53,7 +58,9 @@ function ProjectDetails() {
                     <div className="col-md-4 d-flex">
                         <div className="card flex-fill">
                             <h4>Technologies Used</h4>
-                            <p>{project.technologies}</p>
+                            <ul>
+                                {project.technologies.map((tech, index) => (<li key={index}>{tech}</li>))}
+                            </ul>
                         </div>
                     </div>
                     <div className="col-md-4 d-flex">
