@@ -27,26 +27,34 @@
 ******************************************************/
 
 h1 {
-  font-family: sans-serif;
-  font-style: normal;
-  font-size: 4rem;
+  font-family: "Advent Pro", sans-serif;
+  font-weight: bold;
+  font-size: 6rem;
   color: rgb(80, 117, 160);
   margin: 40px 0;
 }
 h2 {
+  font-family: "Advent Pro", sans-serif;
+  font-weight: bold;
   color: rgb(129, 23, 96);
-  font-size: 3rem;
+  font-size: 4rem;
 }
 
 h3 {
   color: rgb(124, 96, 134);
+  font-family: "Urbanist", sans-serif;
+  font-size: 2rem;
 }
 
 h4 {
+  font-family: "Urbanist", sans-serif;
   color: rgb(36, 64, 83);
+  margin: 15px 0;
 }
 
 h5 {
+  font-family: "Odibee Sans", sans-serif;
+  font-size: 2rem;
   background-color: rgb(110, 66, 116);
   border-radius: 3px;
   padding: 10px 15px;
@@ -59,6 +67,7 @@ p {
 }
 
 p, .card-list {
+  font-family: "Dosis", sans-serif;
   font-size: 1.2rem;
 }
 
@@ -66,20 +75,24 @@ p, .card-list {
                         BUTTONS
 ******************************************************/
 .btn-primary {
-  background-color: rgb(48, 67, 102);
-  margin: 20px 20px 20px 0;
-  border: none;
+  font-family: "Unica One", sans-serif;
   font-weight: bold;
+  font-size: 1.2rem;
+  background-color: rgb(48, 67, 102);
+  margin: 40px 20px 0 0;
+  border: none;
 }
 .btn-primary:hover {
   background-color: rgb(28, 43, 70);
 }
 
 .btn-secondary {
+  font-family: "Unica One", sans-serif;
+  font-weight: bold;
+  font-size: 1.2rem;
   background-color: rgb(73, 48, 102);
   margin: 20px 20px 0 0;
   border: none;
-  font-weight: bold;
 }
 .btn-secondary:hover {
   background-color: rgb(57, 28, 70);
@@ -95,10 +108,10 @@ p, .card-list {
 }
 
 .nav-link {
-  font-size: 1.2rem;
-  padding: 8px 20px !important; 
+  font-family: "Unica One", sans-serif;
+  font-size: 1.7rem;
+  padding: 5px 25px !important; 
   color: rgb(255, 255, 255) !important;
-  font-weight: bold;
   background-color: rgb(90, 68, 116);
   border-radius: 5px;
   border: none;
@@ -115,8 +128,9 @@ p, .card-list {
 }
 
 .navbar-brand {
+  font-family: "Advent Pro", sans-serif;
   font-weight: bold;
-  font-size: 3rem;
+  font-size: 3.5rem;
   color: white;
 }
 
@@ -140,10 +154,19 @@ footer {
 ******************************************************/
 
 .card {
-  background-color: rgba(255, 255, 255, 0.61);
+  background: linear-gradient(
+        to bottom, 
+        rgba(255, 255, 255, 0.719),  
+        rgba(255, 255, 255, 0.39),  
+        rgba(255, 255, 255, 0)  
+    );
   padding: 40px;
   margin: 50px;
   border: none;
+}
+
+.word-card {
+  background: rgba(255, 255, 255, 0.685) ;
 }
 
 /***************************************************** 
@@ -161,9 +184,11 @@ footer {
 }
 
 .form-label {
+  font-family: "Unica One", sans-serif;
+  font-size: 1.2rem;
   padding: 5px 10px;
-  color: rgb(255, 239, 239);
-  background-color: rgb(87, 57, 85);
+  color: rgb(255, 255, 255);
+  background-color: rgb(57, 57, 87);
   border-radius: 3px;
   margin: 20px 0;
   font-weight: bold;

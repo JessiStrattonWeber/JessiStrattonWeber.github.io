@@ -192,6 +192,8 @@ const projects = [
             "../../images/project8/3.png",
             "../../images/project8/4.png",
             "../../images/project8/5.png",
+            "../../images/project8/6.png",
+            "../../images/project8/7.png",
         ],
         video: "../../images/project8/project_8.mkv"
     },
@@ -210,9 +212,12 @@ const projects = [
         link: "/project/9",
         github: 'https://github.com/JessiStrattonWeber/CS3750-Portfolio/tree/main/project9',
         gallery: [
-            "../../images/project9/project_icon.png",
-            "../../images/project9/project_icon.png",
-            "../../images/project9/project_icon.png",
+            "../../images/project9/1.png",
+            "../../images/project9/2.png",
+            "../../images/project9/3.png",
+            "../../images/project9/4.png",
+            "../../images/project9/5.png",
+            "../../images/project9/6.png",
         ],
         video: "../../images/project9/project_9.mkv"
     },

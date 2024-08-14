@@ -6,6 +6,10 @@ function Portfolio() {
     return (
         <div className="container">
             <h1>My Projects</h1>
+            <h3>CS 3750: Software Engineering Project List</h3>
+            <hr />
+            <a className="btn btn-primary" href='https://github.com/JessiStrattonWeber/CS3750-Portfolio'>View Code</a>
+            <Link className="btn btn-primary" to="/">Home</Link>
             <div className="row">
                 {projects.map((project, index) => (
                     <div className="col-md-4 d-flex" key={index}>
