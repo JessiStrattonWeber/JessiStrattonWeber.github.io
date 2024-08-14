@@ -5,7 +5,7 @@ function Header() {
     return (
         <nav className="navbar navbar-expand">
             <div className="container-fluid">
-                <Link className="navbar-brand" to="/">Jessi Stratton</Link>
+                <a className="navbar-brand" href="https://www.linkedin.com/in/jessi-stratton-906319252/">Jessi Stratton</a>
                 <div className="navbar-collapse">
                     <ul className="navbar-nav">
                         <li className="nav-item">
@@ -13,6 +13,9 @@ function Header() {
                         </li>
                         <li className="nav-item">
                             <Link className="nav-link" to="/portfolio">Portfolio</Link>
+                        </li>
+                        <li className="nav-item">
+                            <a className="nav-link" href='https://github.com/JessiStrattonWeber/CS3750-Portfolio'>View Code</a>
                         </li>
                         <li className="nav-item">
                             <Link className="nav-link" to="/contact">Contact</Link>

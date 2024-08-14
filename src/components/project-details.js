@@ -10,22 +10,22 @@ function ProjectDetails() {
         <div className="container ">
             <Link to="/portfolio" className="btn btn-primary">Go Back</Link>
             <div className='card '>
-                <h2>{project.title} Overview</h2>
+                <h2>{project.title}</h2>
+                <h4>{project.description}</h4>
                 <video controls className="img-fluid detail-video">
                     <source src={project.video} type="video/webm" />
                     <source src={project.video} type="video/mp4" />
                     <source src={project.video} type="video/mkv" />
                     Your browser does not support this video.
                 </video>
-                <p>{project.description}</p>
                 <a href={project.github} className="btn btn-primary">Github Page</a>
             </div>
 
 
-            <div className="row mt-5">
+            <div className="row">
                 <div className="col-12">
-                    <h4>Project Gallery</h4>
                     <div className='card'>
+                    <h4>{project.title} Image Gallery</h4>
                         <div id="imageGallery" className="carousel slide" data-bs-ride="carousel">
                             <div className="carousel-inner">
                                 {project.gallery.map((image, index) => (
@@ -51,21 +51,21 @@ function ProjectDetails() {
                 <div className="row">
                     <div className="col-md-4 d-flex">
                         <div className="card flex-fill">
-                            <h4>Project Description</h4>
+                            <h5>Project Description</h5>
                             <p>{project.long_description}</p>
                         </div>
                     </div>
                     <div className="col-md-4 d-flex">
                         <div className="card flex-fill">
-                            <h4>Technologies Used</h4>
+                            <h5>Technologies Used</h5>
                             <ul>
-                                {project.technologies.map((tech, index) => (<li key={index}>{tech}</li>))}
+                                {project.technologies.map((tech, index) => (<li className= 'card-list'key={index}>{tech}</li>))}
                             </ul>
                         </div>
                     </div>
                     <div className="col-md-4 d-flex">
                         <div className="card flex-fill">
-                            <h4>My Contributions</h4>
+                            <h5 >My Contributions</h5>
                             <p>{project.contributions}</p>
                         </div>
                     </div>

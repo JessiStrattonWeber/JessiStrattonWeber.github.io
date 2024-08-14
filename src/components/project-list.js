@@ -3,7 +3,7 @@ const projects = [
         id: 1,
         title: "Food Application",
         description: "Intro to Node, Express, and File Storage",
-        long_description: "Each project should have about a full page of description for the project",
+        long_description: "In this project we created an application to store and search for people's favorite foods.",
         technologies:[
             "HTML",
             "Node",
@@ -26,7 +26,7 @@ const projects = [
         id: 2,
         title: "Four in a Row",
         description: "First Look At Using React",
-        long_description: "Each project should have about a full page of description for the project",
+        long_description: "In this project we were tasks to build off of a tic-tac-toe game we build previously and convert it into a connect four game using React.",
         technologies:[
             "React",
             "Bootstap",
@@ -46,9 +46,9 @@ const projects = [
     },
     {
         id: 3,
-        title: "Banking Mongo Setup",
+        title: "Mongo Setup",
         description: "Implementing Mongo Databases and RESTful API",
-        long_description: "Each project should have about a full page of description for the project",
+        long_description: "In this assignment we set up a Mongo database and learned created backend code to do basic CRUD operations on records.",
         technologies:[
             "Node",
             "Express",
@@ -69,9 +69,9 @@ const projects = [
     },
     {
         id: 4,
-        title: "Banking MERN & Sessions",
+        title: "MERN & Sessions",
         description: "Introducting to Using Sessions in React",
-        long_description: "Each project should have about a full page of description for the project",
+        long_description: "In this project we added simple frontend functionality of a banking application and session tracking to make a login system. This code helped set the path for a later group assignment.",
         technologies:[
             "Sessions",
             "Mongo",
@@ -80,7 +80,7 @@ const projects = [
             "Node",
             
         ],
-        contributions: "Explanation of your particular contributions.",
+        contributions: "I created the frontend, simple navigation menu, and implemented sessions to bring login functionality.",
         image: "../../images/project4/project_icon.png",
         link: "/project/4",
         github: 'https://github.com/JessiStrattonWeber/CS3750-Portfolio/tree/main/project4',
@@ -95,8 +95,8 @@ const projects = [
     {
         id: 5,
         title: "Hangman Game",
-        description: "First Group Project",
-        long_description: "Each project should have about a full page of description for the project",
+        description: "First Group Project, Build a Game of Hangman",
+        long_description: "This was our first group assignment where were tasked with working in a group of three to build a hangman game with 1000+ word options, and a persistent scoreboard.",
         technologies:[
             "Git",
             "Mongo",
@@ -104,7 +104,7 @@ const projects = [
             "React",
             "Node",
         ],
-        contributions: "For this projects I did several backend routes, frontend components, and a large section of styling",
+        contributions: "For this projects I did several backend routes, frontend components, created images, implemented styling, and wrote a script to store all the words to the database.",
         image: "../../images/project5/project_icon.png",
         link: "/project/5",
         github: 'https://github.com/JessiStrattonWeber/CS3750-Portfolio/tree/main/project5',
@@ -120,9 +120,9 @@ const projects = [
     },
     {
         id: 6,
-        title: "Banking Application Frontend",
+        title: "Banking Frontend",
         description: "Group Assignment To Build a React Frontend",
-        long_description: "Each project should have about a full page of description for the project",
+        long_description: "In this group assignment we were responsible for making a clean frontend for a banking application. We decided to style it after our group name: The Power Puff Girls",
         technologies:[
             "Git",
             "Bootstrap",
@@ -147,9 +147,9 @@ const projects = [
     },
     {
         id: 7,
-        title: "Banking Application Backend",
+        title: "Banking Backend",
         description: "Group Assignment to Build an Express Backend",
-        long_description: "Each project should have about a full page of description for the project",
+        long_description: "This was the final stage of our group project where we created the backend functionality and connected it to the frontend to form a fully functional MERN application.",
         technologies:[
             "Git",
             "Mongo",
@@ -175,20 +175,23 @@ const projects = [
         id: 8,
         title: "Honors Project",
         description: "Exploring Some Software Engineering Best Practices",
-        long_description: "Each project should have about a full page of description for the project",
+        long_description: "For my honors project I helped my group explore some software engineering best practices including, test driven development, git pull requests, kanban boards, and more.",
         technologies:[
             "Jest",
             "Github Actions",
             "YAML",
+            "Trello Boards",
         ],
         contributions: "I created and managed our Kanban board, as well as wrote the backend tests to automatically run on each pull request.",
         image: "../../images/project8/project_icon.png",
         link: "/project/8",
         github: 'https://github.com/JessiStrattonWeber/CS3750-Portfolio/tree/main/project8',
         gallery: [
-            "../../images/project8/project_icon.png",
-            "../../images/project8/project_icon.png",
-            "../../images/project8/project_icon.png",
+            "../../images/project8/1.png",
+            "../../images/project8/2.png",
+            "../../images/project8/3.png",
+            "../../images/project8/4.png",
+            "../../images/project8/5.png",
         ],
         video: "../../images/project8/project_8.mkv"
     },
@@ -196,7 +199,7 @@ const projects = [
         id: 9,
         title: "Final Portfolio",
         description: "Final Portfolio of Software Engineering Assignments",
-        long_description: "Each project should have about a full page of description for the project",
+        long_description: "This project is this very site! A portfolio of this semsters work, hosted through github pages.",
         technologies:[
             "React",
             "Github Pages",
