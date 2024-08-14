@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 function Contact() {
   return (
     <div className="container">
-      <h2>Contact Me</h2>
+      <h1>Contact Me</h1>
       <form>
         <div>
           <label className="form-label">Name:</label>

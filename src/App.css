@@ -30,6 +30,36 @@ h1 {
   font-family: sans-serif;
   font-style: normal;
   font-size: 4rem;
+  color: rgb(80, 117, 160);
+  margin: 40px 0;
+}
+h2 {
+  color: rgb(129, 23, 96);
+  font-size: 3rem;
+}
+
+h3 {
+  color: rgb(124, 96, 134);
+}
+
+h4 {
+  color: rgb(36, 64, 83);
+}
+
+h5 {
+  background-color: rgb(110, 66, 116);
+  border-radius: 3px;
+  padding: 10px 15px;
+  color: white !important;
+  text-align: center;
+}
+
+p {
+  text-align: center;
+}
+
+p, .card-list {
+  font-size: 1.2rem;
 }
 
 /***************************************************** 
@@ -37,7 +67,7 @@ h1 {
 ******************************************************/
 .btn-primary {
   background-color: rgb(48, 67, 102);
-  margin: 20px 20px 0 0;
+  margin: 20px 20px 20px 0;
   border: none;
   font-weight: bold;
 }
@@ -67,7 +97,7 @@ h1 {
 .nav-link {
   font-size: 1.2rem;
   padding: 8px 20px !important; 
-  color: rgb(255, 255, 255);
+  color: rgb(255, 255, 255) !important;
   font-weight: bold;
   background-color: rgb(90, 68, 116);
   border-radius: 5px;
@@ -131,7 +161,12 @@ footer {
 }
 
 .form-label {
-  padding: 10px;
+  padding: 5px 10px;
+  color: rgb(255, 239, 239);
+  background-color: rgb(87, 57, 85);
+  border-radius: 3px;
+  margin: 20px 0;
+  font-weight: bold;
 }
 
 /***************************************************** 

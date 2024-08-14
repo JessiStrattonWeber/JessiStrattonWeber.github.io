@@ -1,23 +1,21 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import projects from './project-list.js'; 
+import projects from './project-list.js';
 
 function Portfolio() {
     return (
         <div className="container">
-            <h2>My Projects</h2>
-            <a className="btn btn-primary" href='https://github.com/JessiStrattonWeber/CS3750-Portfolio'>View Code</a>
+            <h1>My Projects</h1>
             <div className="row">
                 {projects.map((project, index) => (
                     <div className="col-md-4 d-flex" key={index}>
-                        <div className="card flex-fill">
+                        <Link to={`/project/${project.id}`} className="card flex-fill text-decoration-none">
                             <img src={`./../images/project${project.id}/project_icon.png`} className="card-img-top" alt={project.title} />
                             <div className="card-body">
                                 <h5 className="card-title">{project.title}</h5>
                                 <p className="card-text">{project.description}</p>
-                                <Link to={`/project/${project.id}`} className="btn btn-secondary">View Details</Link>
                             </div>
-                        </div>
+                        </Link>
                     </div>
                 ))}
             </div>
