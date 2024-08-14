@@ -12,10 +12,7 @@ function Header() {
                             <Link className="nav-link" to="/">Home</Link>
                         </li>
                         <li className="nav-item">
-                            <Link className="nav-link" to="/portfolio">Portfolio</Link>
-                        </li>
-                        <li className="nav-item">
-                            <a className="nav-link" href='https://github.com/JessiStrattonWeber/CS3750-Portfolio'>View Code</a>
+                            <Link className="nav-link" to="/portfolio">Projects</Link>
                         </li>
                         <li className="nav-item">
                             <Link className="nav-link" to="/contact">Contact</Link>

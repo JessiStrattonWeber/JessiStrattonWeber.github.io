@@ -17,6 +17,8 @@ function Home() {
         <h1>My Portfolio</h1>
         <h3>Welcome To Jessi Stratton's CS 3750: Software Engineering Portfolio</h3>
         <hr />
+        <a className="btn btn-primary" href='https://github.com/JessiStrattonWeber/CS3750-Portfolio'>View Code</a>
+        <Link className="btn btn-primary" to="/portfolio">View Projects</Link>
         <div className="row">
           <div className="col-12">
             <div className='card'>
